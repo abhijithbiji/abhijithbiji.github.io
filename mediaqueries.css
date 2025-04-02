@@ -1,0 +1,19 @@
+/* For tablets and above (between 768px and 1200px) */
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
+
+/* For smaller screens (mobile devices) */
+@media screen and (max-width: 768px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+}
